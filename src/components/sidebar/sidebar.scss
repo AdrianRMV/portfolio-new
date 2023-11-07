@@ -5,6 +5,8 @@
     justify-content: center;
     background-color: white;
     color: #000;
+    position: relative;
+    z-index: 99;
     .bg {
         position: fixed;
         top: 0;
