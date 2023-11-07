@@ -1,3 +1,4 @@
+import './parallax.scss';
 const Parallax = ({ type }) => {
     return (
         <div
