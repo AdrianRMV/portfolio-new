@@ -16,6 +16,8 @@
             justify-content: center;
             flex-direction: column;
             gap: 40px;
+            position: relative;
+            z-index: 1;
 
             h2 {
                 font-size: 30px;
@@ -52,6 +54,9 @@
         bottom: -120px;
         white-space: nowrap;
         color: #ffffff09;
+        width: 50%;
+        z-index: 0;
+        font-weight: bold;
     }
 
     .imgContainer {
