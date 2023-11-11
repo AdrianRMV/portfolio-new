@@ -31,10 +31,10 @@ const Contact = () => {
 
         emailjs
             .sendForm(
-                'service_oh1urxt',
+                'service_dfzjax9',
                 'template_youe5lj',
                 formRef.current,
-                'TQXPMvZEAzy3ZWBpI'
+                'rEccvPp84s9WYSehN'
             )
             .then(
                 (result) => {
@@ -73,8 +73,8 @@ const Contact = () => {
                 {/* SVG */}
                 <motion.div
                     className="phoneSvg"
-                    initial={{ opacity: 1, zIndex: 1 }}
-                    whileInView={{ opacity: 0, zIndex: 0 }}
+                    initial={{ opacity: 1 }}
+                    whileInView={{ opacity: 0 }}
                     transition={{ delay: 3, duration: 1 }}
                 >
                     <svg
@@ -100,8 +100,8 @@ const Contact = () => {
                 <motion.form
                     ref={formRef}
                     onSubmit={sendEmail}
-                    initial={{ opacity: 0, zIndex: -1 }}
-                    whileInView={{ opacity: 1, zIndex: 99 }}
+                    initial={{ opacity: 0 }}
+                    whileInView={{ opacity: 1 }}
                     transition={{ delay: 4, duration: 1 }}
                 >
                     <input
