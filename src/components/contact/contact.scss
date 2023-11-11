@@ -25,10 +25,18 @@
     }
 
     .formContainer {
+        position: relative;
+        .phoneSvg {
+            // background-color: orange;
+            color: orange;
+            position: absolute;
+            margin: auto;
+        }
         form {
             display: flex;
             flex-direction: column;
             gap: 20px;
+            z-index: 99;
 
             input,
             textarea {
@@ -39,7 +47,7 @@
                 border-radius: 5px;
             }
 
-            button {
+            .btn-form {
                 padding: 20px;
                 background-color: orange;
                 cursor: pointer;
