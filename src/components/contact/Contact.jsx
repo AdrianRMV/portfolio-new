@@ -117,7 +117,14 @@ const Contact = () => {
                         name="email"
                     />
                     <textarea rows={8} placeholder="Message" name="message" />
-                    <input className="btn-form" type="submit" />
+                    <motion.input
+                        className="btn-form"
+                        type="submit"
+                        whileHover={{
+                            borderColor: 'orange',
+                            backgroundColor: 'orange',
+                        }}
+                    />
                     {error && 'Error'}
                     {success && 'Success'}
                 </motion.form>

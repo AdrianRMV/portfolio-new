@@ -81,10 +81,11 @@
                 }
             }
 
-            button {
+            .btn-form {
                 padding: 20px;
                 border: none;
-                background-color: orange;
+                // background-color: orange;
+                border: 1px solid white;
                 cursor: pointer;
                 font-weight: 500;
                 @include mobile {
