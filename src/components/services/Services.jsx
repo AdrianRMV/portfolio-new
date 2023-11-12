@@ -23,9 +23,9 @@ const variants = {
 const Services = () => {
     const ref = useRef();
 
-    const isInView = useInView(ref, {
-        margin: '-100px',
-    });
+    // const isInView = useInView(ref, {
+    //     margin: '-100px',
+    // });
 
     return (
         <motion.div
@@ -33,92 +33,95 @@ const Services = () => {
             variants={variants}
             initial={'initial'}
             ref={ref}
-            animate={isInView && 'animate'}
+            animate={'animate'}
         >
-            <motion.div className="textContainer" variants={variants}>
-                <p>
-                    I focus on helping your brand grow <br /> and move forward
-                </p>
-                <hr />
-            </motion.div>
-            <motion.div className="titleContainer" variants={variants}>
-                <div className="title">
-                    <img src="/people.webp" alt="" />
-                    <h1>
-                        <motion.b whileHover={{ color: 'orange' }}>
-                            Unique
-                        </motion.b>{' '}
-                        Ideas
-                    </h1>
-                </div>
-                <div className="title">
-                    <h1>
-                        <motion.b whileHover={{ color: 'orange' }}>
-                            For Your
-                        </motion.b>{' '}
-                        Business.
-                    </h1>
-                    <button>WHAT WE DO?</button>
-                </div>
-            </motion.div>
-            <motion.div className="listContainer" variants={variants}>
-                <motion.div
-                    className="box"
-                    whileHover={{ background: 'lightgray', color: 'black' }}
-                >
-                    <h2>Branding</h2>
+            <div className="container">
+                <motion.div className="textContainer" variants={variants}>
                     <p>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing
-                        elit. Deserunt atque totam iusto dicta error,
-                        dignissimos odit aliquid incidunt exercitationem.
-                        Aliquam unde sed maxime maiores natus necessitatibus ab
-                        veniam quia corporis?
+                        I focus on helping your brand grow <br /> and move
+                        forward
                     </p>
-                    <button>Go</button>
+                    <hr />
                 </motion.div>
-                <motion.div
-                    className="box"
-                    whileHover={{ background: 'lightgray', color: 'black' }}
-                >
-                    <h2>Branding</h2>
-                    <p>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing
-                        elit. Deserunt atque totam iusto dicta error,
-                        dignissimos odit aliquid incidunt exercitationem.
-                        Aliquam unde sed maxime maiores natus necessitatibus ab
-                        veniam quia corporis?
-                    </p>
-                    <button>Go</button>
+                <motion.div className="titleContainer" variants={variants}>
+                    <div className="title">
+                        <img src="/people.webp" alt="" />
+                        <h1>
+                            <motion.b whileHover={{ color: 'orange' }}>
+                                Unique
+                            </motion.b>{' '}
+                            Ideas
+                        </h1>
+                    </div>
+                    <div className="title">
+                        <h1>
+                            <motion.b whileHover={{ color: 'orange' }}>
+                                For Your
+                            </motion.b>{' '}
+                            Business.
+                        </h1>
+                        <button>WHAT WE DO?</button>
+                    </div>
                 </motion.div>
-                <motion.div
-                    className="box"
-                    whileHover={{ background: 'lightgray', color: 'black' }}
-                >
-                    <h2>Branding</h2>
-                    <p>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing
-                        elit. Deserunt atque totam iusto dicta error,
-                        dignissimos odit aliquid incidunt exercitationem.
-                        Aliquam unde sed maxime maiores natus necessitatibus ab
-                        veniam quia corporis?
-                    </p>
-                    <button>Go</button>
+                <motion.div className="listContainer" variants={variants}>
+                    <motion.div
+                        className="box"
+                        whileHover={{ background: 'lightgray', color: 'black' }}
+                    >
+                        <h2>Branding</h2>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing
+                            elit. Deserunt atque totam iusto dicta error,
+                            dignissimos odit aliquid incidunt exercitationem.
+                            Aliquam unde sed maxime maiores natus necessitatibus
+                            ab veniam quia corporis?
+                        </p>
+                        <button>Go</button>
+                    </motion.div>
+                    <motion.div
+                        className="box"
+                        whileHover={{ background: 'lightgray', color: 'black' }}
+                    >
+                        <h2>Branding</h2>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing
+                            elit. Deserunt atque totam iusto dicta error,
+                            dignissimos odit aliquid incidunt exercitationem.
+                            Aliquam unde sed maxime maiores natus necessitatibus
+                            ab veniam quia corporis?
+                        </p>
+                        <button>Go</button>
+                    </motion.div>
+                    <motion.div
+                        className="box"
+                        whileHover={{ background: 'lightgray', color: 'black' }}
+                    >
+                        <h2>Branding</h2>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing
+                            elit. Deserunt atque totam iusto dicta error,
+                            dignissimos odit aliquid incidunt exercitationem.
+                            Aliquam unde sed maxime maiores natus necessitatibus
+                            ab veniam quia corporis?
+                        </p>
+                        <button>Go</button>
+                    </motion.div>
+                    <motion.div
+                        className="box"
+                        whileHover={{ background: 'lightgray', color: 'black' }}
+                    >
+                        <h2>Branding</h2>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing
+                            elit. Deserunt atque totam iusto dicta error,
+                            dignissimos odit aliquid incidunt exercitationem.
+                            Aliquam unde sed maxime maiores natus necessitatibus
+                            ab veniam quia corporis?
+                        </p>
+                        <button>Go</button>
+                    </motion.div>
                 </motion.div>
-                <motion.div
-                    className="box"
-                    whileHover={{ background: 'lightgray', color: 'black' }}
-                >
-                    <h2>Branding</h2>
-                    <p>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing
-                        elit. Deserunt atque totam iusto dicta error,
-                        dignissimos odit aliquid incidunt exercitationem.
-                        Aliquam unde sed maxime maiores natus necessitatibus ab
-                        veniam quia corporis?
-                    </p>
-                    <button>Go</button>
-                </motion.div>
-            </motion.div>
+            </div>
         </motion.div>
     );
 };
