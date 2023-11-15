@@ -43,3 +43,9 @@ section {
         @content;
     }
 }
+
+.FloatingButton__FloatingButtonContainer-sc-q5md4t-0.lbvXTF {
+    @include mobile {
+        right: 35px;
+    }
+}

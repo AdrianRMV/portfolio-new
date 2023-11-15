@@ -53,12 +53,20 @@ const Hero = () => {
                         Web Developer and UI desinger
                     </motion.h1>
                     <motion.div className="buttons" variants={textVariants}>
-                        <motion.button variants={textVariants}>
+                        <motion.a
+                            href="#proyects"
+                            className="button-hero"
+                            variants={textVariants}
+                        >
                             See the Lastest Works
-                        </motion.button>
-                        <motion.button variants={textVariants}>
+                        </motion.a>
+                        <motion.a
+                            href="#Contact"
+                            className="button-hero"
+                            variants={textVariants}
+                        >
                             Contact Me
-                        </motion.button>
+                        </motion.a>
                     </motion.div>
                     <motion.img
                         src="/scroll.png"
@@ -77,7 +85,7 @@ const Hero = () => {
                 Creator Influencer Artist Reader
             </motion.div>
             <div className="imgContainer">
-                <img src="/hero.png" alt="" />
+                <img src="/me2.jpg" alt="" />
             </div>
         </div>
     );

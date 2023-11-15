@@ -27,9 +27,17 @@
             display: flex;
             gap: 20px;
 
-            img {
-                width: 18px;
-                height: 18px;
+            a {
+                &:hover {
+                    img {
+                        transform: scale(1.2);
+                    }
+                }
+                img {
+                    transition: 300ms ease-in-out all;
+                    width: 18px;
+                    height: 18px;
+                }
             }
         }
     }
