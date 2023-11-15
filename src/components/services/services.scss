@@ -6,10 +6,6 @@
     flex-direction: column;
     justify-content: space-between;
 
-    @include mobile {
-        justify-content: center;
-    }
-
     .textContainer {
         flex: 1;
         align-self: flex-end;
@@ -21,8 +17,6 @@
             align-self: center;
             text-align: center;
             flex-direction: column;
-            margin-bottom: 23px;
-            gap: 0;
         }
 
         p {
@@ -30,10 +24,6 @@
             font-size: 20px;
             color: gray;
             text-align: right;
-            @include mobile {
-                text-align: center;
-                font-size: 18px;
-            }
         }
 
         hr {
