@@ -21,7 +21,6 @@ const variants = {
 
 const Services = () => {
     const ref = useRef();
-
     const isInView = useInView(ref, { margin: '-100px' });
 
     return (
@@ -29,8 +28,6 @@ const Services = () => {
             className="services"
             variants={variants}
             initial="initial"
-            // animate="animate"
-            // whileInView="animate"
             ref={ref}
             animate={'animate'}
         >
@@ -58,7 +55,7 @@ const Services = () => {
                         </motion.b>{' '}
                         Business.
                     </h1>
-                    <button>WHAT WE DO?</button>
+                    <button>WHAT I DO?</button>
                 </div>
             </motion.div>
             <motion.div className="listContainer" variants={variants}>
@@ -66,12 +63,11 @@ const Services = () => {
                     className="box"
                     whileHover={{ background: 'lightgray', color: 'black' }}
                 >
-                    <h2>Branding</h2>
+                    <h2>Web Development</h2>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Nostrum libero enim nisi aliquam consectetur expedita
-                        magni eius ex corrupti animi! Ad nam pariatur assumenda
-                        quae mollitia libero repellat explicabo maiores?
+                        We transform your ideas into interactive and appealing
+                        websites. We use the latest technologies to provide
+                        customized and scalable web solutions.
                     </p>
                     <button>Go</button>
                 </motion.div>
@@ -79,12 +75,12 @@ const Services = () => {
                     className="box"
                     whileHover={{ background: 'lightgray', color: 'black' }}
                 >
-                    <h2>Branding</h2>
+                    <h2>Mobile Applications</h2>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Nostrum libero enim nisi aliquam consectetur expedita
-                        magni eius ex corrupti animi! Ad nam pariatur assumenda
-                        quae mollitia libero repellat explicabo maiores?
+                        We develop intuitive and functional mobile applications
+                        for iOS and Android platforms. From concept to
+                        implementation, we provide solutions that meet your
+                        users&apos; needs.
                     </p>
                     <button>Go</button>
                 </motion.div>
@@ -92,12 +88,11 @@ const Services = () => {
                     className="box"
                     whileHover={{ background: 'lightgray', color: 'black' }}
                 >
-                    <h2>Branding</h2>
+                    <h2>Performance Optimization</h2>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Nostrum libero enim nisi aliquam consectetur expedita
-                        magni eius ex corrupti animi! Ad nam pariatur assumenda
-                        quae mollitia libero repellat explicabo maiores?
+                        We enhance the performance of your applications and
+                        websites, identifying and resolving bottlenecks to
+                        ensure a fast and efficient user experience.
                     </p>
                     <button>Go</button>
                 </motion.div>
@@ -105,12 +100,12 @@ const Services = () => {
                     className="box"
                     whileHover={{ background: 'lightgray', color: 'black' }}
                 >
-                    <h2>Branding</h2>
+                    <h2>User Interface (UI) Design</h2>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Nostrum libero enim nisi aliquam consectetur expedita
-                        magni eius ex corrupti animi! Ad nam pariatur assumenda
-                        quae mollitia libero repellat explicabo maiores?
+                        We create attractive and user-friendly interfaces for
+                        your applications and websites. Our focus is on user
+                        experience to ensure satisfaction and retention of your
+                        users.
                     </p>
                     <button>Go</button>
                 </motion.div>
