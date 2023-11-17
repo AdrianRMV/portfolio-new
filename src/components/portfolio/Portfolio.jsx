@@ -25,13 +25,13 @@ const items = [
     {
         id: 4,
         title: 'Heroes API',
-        video_url: '/task-record.webm',
+        video_url: '/HeroesApp.webm',
         desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias possimus sint cumque molestiae atque labore odio maxime inventore tempora voluptatum? Ipsum aliquid ratione corrupti ipsa magnam maiores quas voluptatibus repudiandae.',
     },
     {
         id: 4,
         title: 'Chat WebSockets',
-        video_url: '/task-record.webm',
+        video_url: '/chatSocket.webm',
         desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias possimus sint cumque molestiae atque labore odio maxime inventore tempora voluptatum? Ipsum aliquid ratione corrupti ipsa magnam maiores quas voluptatibus repudiandae.',
     },
     {

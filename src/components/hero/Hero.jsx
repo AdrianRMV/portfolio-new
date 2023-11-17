@@ -62,6 +62,8 @@ const Hero = () => {
                         </motion.a>
                         <motion.a
                             href="/resume-arv.pdf"
+                            target="_blank"
+                            rel="noreferrer"
                             className="button-hero"
                             variants={textVariants}
                         >
