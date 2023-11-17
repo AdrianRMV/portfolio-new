@@ -61,11 +61,11 @@ const Hero = () => {
                             See the Lastest Works
                         </motion.a>
                         <motion.a
-                            href="#Contact"
+                            href="/resume-arv.pdf"
                             className="button-hero"
                             variants={textVariants}
                         >
-                            Contact Me
+                            Resume
                         </motion.a>
                     </motion.div>
                     <motion.img
