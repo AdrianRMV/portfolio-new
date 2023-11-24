@@ -15,7 +15,7 @@ const SingleProyect = ({ item }) => {
             <div className="container">
                 <div className="wrapper">
                     <div className="imageContainer" ref={ref}>
-                        <video loop autoPlay muted>
+                        <video autoPlay muted playsInline loop>
                             <source src={item.video_url} type="video/webm" />
                         </video>
                     </div>
