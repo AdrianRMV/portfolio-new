@@ -14,13 +14,19 @@ const Navbar = () => {
                     ADRIAN RAMIREZ
                 </motion.span>
                 <div className="socials">
-                    <a href="https://www.facebook.com/blackwizart123">
+                    <a
+                        href="https://www.facebook.com/blackwizart123"
+                        target="_blank"
+                    >
                         <img src="/facebook.png" alt="" />
                     </a>
-                    <a href="https://www.instagram.com/arv__01/">
+                    <a
+                        href="https://www.instagram.com/arv__01/"
+                        target="_blank"
+                    >
                         <img src="/instagram.png" alt="" />
                     </a>
-                    <a href="https://github.com/AdrianRMV">
+                    <a href="https://github.com/AdrianRMV" target="_blank">
                         <img src="/github.png" alt="" />
                     </a>
                 </div>
