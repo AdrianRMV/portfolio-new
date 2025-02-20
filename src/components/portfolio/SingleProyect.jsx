@@ -22,7 +22,9 @@ const SingleProyect = ({ item }) => {
                     <motion.div className="textContainer" style={{ y }}>
                         <h2>{item.title}</h2>
                         <p>{item.desc}</p>
-                        <a href={item.url}>See Demo</a>
+                        <a href={item.url} title="See demo" target="_blank">
+                            See Demo
+                        </a>
                     </motion.div>
                 </div>
             </div>
