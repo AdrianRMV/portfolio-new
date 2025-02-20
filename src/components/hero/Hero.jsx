@@ -61,7 +61,7 @@ const Hero = () => {
                             See the Lastest Works
                         </motion.a>
                         <motion.a
-                            href="/resume-arv.pdf"
+                            href="/Resume_Adrian_Ramirez.pdf"
                             target="_blank"
                             rel="noreferrer"
                             className="button-hero"
